@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "ng-architect-test"
+  "defaultProject": "ng-architect-test",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }

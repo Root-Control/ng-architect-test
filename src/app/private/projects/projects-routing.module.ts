@@ -1,11 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AppComponent } from './app.component';
+import { ProjectChooseComponent } from './project-choose/project-choose.component';
 
 const routes: Routes = [{
-	path: '', 
-	component: AppComponent,
-  pathMatch: 'full'
+	path: 'projects', 
+	component: ProjectChooseComponent
 }];
 
 
@@ -13,4 +12,4 @@ const routes: Routes = [{
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class ProjectsRoutingModule { }
